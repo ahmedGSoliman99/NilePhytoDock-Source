@@ -1,0 +1,764 @@
+{
+  "application": "NilePhytoDock Studio v1.0.0",
+  "license": "GPL-3.0-or-later",
+  "developers": [
+    "Ahmed G Soliman",
+    "Malak Taha"
+  ],
+  "source_repository": "https://github.com/ahmedGSoliman99/NilePhytoDock-Source",
+  "archives": [
+    {
+      "file": "biojava-7.2.2-rdk.1.tar.gz",
+      "bytes": 17904535,
+      "sha256": "da84438bc02c5d72d841fb3be91f5ba8b8a9950cdd760ed053eac61314b218db",
+      "upstream": "https://github.com/rdk/biojava/tree/updated-cif-parsing-bug-7.2.2-rebase"
+    },
+    {
+      "file": "bounce-0.18-sources.jar",
+      "bytes": 211033,
+      "sha256": "3d2fa327c0af9cc9d15e327e6d926980521a9238d274d35332677f6d881f7d8e",
+      "upstream": "See release source manifest and upstream project"
+    },
+    {
+      "file": "FasterForest-2.5.2.tar.gz",
+      "bytes": 780737,
+      "sha256": "56fe700375481c6d735980ddde1a8599b66c9ce900fde5accfc22fbb651844d4",
+      "upstream": "https://github.com/rdk/FasterForest/tree/2.5.2"
+    },
+    {
+      "file": "FasterMolecularSurface-source.tar.gz",
+      "bytes": 625194,
+      "sha256": "709de3f237267b1d6e70df6773c4c7c6438af796c607a23efbf3841ab52baaa9",
+      "upstream": "https://github.com/rdk/FasterMolecularSurface"
+    },
+    {
+      "file": "gpars-1.2.1-sources.jar",
+      "bytes": 476187,
+      "sha256": "651c9309bb2cf59a25cda1c1164c18e8eb27f2380e87ddf5140c1cb51567ce13",
+      "upstream": "See release source manifest and upstream project"
+    },
+    {
+      "file": "griddataformats-1.2.0.tar.gz",
+      "bytes": 5609433,
+      "sha256": "6aec0c1cebf4373b5f59adc8f35a79037ab2ed970cae8f0eb1924724884fc45d",
+      "upstream": "https://pypi.org/project/GridDataFormats/1.2.0/#files"
+    },
+    {
+      "file": "mdanalysis-2.11.0.tar.gz",
+      "bytes": 5450970,
+      "sha256": "aee95dc08d55169c58adbeb2980ff4a39b153bf85f55f291c6c0f7b8226223b0",
+      "upstream": "https://files.pythonhosted.org/packages/81/20/376e8a20c8b74523baa39f5f71d986971b228275e0c0be73fa9a3a7b94a4/mdanalysis-2.11.0.tar.gz"
+    },
+    {
+      "file": "meeko-0.8.0.tar.gz",
+      "bytes": 2580006,
+      "sha256": "09a892bd796c1e1b72b73305f36b694cad99993d6f96acd85bb8d9341bc149d8",
+      "upstream": "https://files.pythonhosted.org/packages/75/df/0e5fd5424621b8da07dc3b21036d1ec4063165955594f72ea5b7fd99ba8b/meeko-0.8.0.tar.gz"
+    },
+    {
+      "file": "openbabel-3.1.1.tar.gz",
+      "bytes": 36688499,
+      "sha256": "c97023ac6300d26176c97d4ef39957f06e68848d64f1a04b0b284ccff2744f02",
+      "upstream": "https://codeload.github.com/openbabel/openbabel/tar.gz/refs/tags/openbabel-3-1-1"
+    },
+    {
+      "file": "openbabel_wheel-3.1.1.23.tar.gz",
+      "bytes": 13256,
+      "sha256": "68fd86540ff0895d36b26f25721187399fb6073f874f6ae474a574e6acf8759d",
+      "upstream": "https://files.pythonhosted.org/packages/63/2d/720579ccff6247aa8fd2d397a7bd592dae72ef0f0133fe6cce2323ea13a2/openbabel_wheel-3.1.1.23.tar.gz"
+    },
+    {
+      "file": "OpenJDK17U-jdk-sources_17.0.19_10.tar.gz",
+      "bytes": 109093932,
+      "sha256": "230bd0a6d7b01012a4942be6f4cd8655b5b1c7c7bd3786096d698ab0a7bb5942",
+      "upstream": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jdk-sources_17.0.19_10.tar.gz"
+    },
+    {
+      "file": "pyside-setup-6.12.0.tar.xz",
+      "bytes": 18211772,
+      "sha256": "099c1a597cf33c1b000e11cf68a0b82d216fb802bf81726efc720394f10c7751",
+      "upstream": "https://download.qt.io/official_releases/QtForPython/pyside6/PySide6-6.12.0-src/pyside-setup-everywhere-src-6.12.0.tar.xz"
+    },
+    {
+      "file": "qtbase-everywhere-src-6.12.0.tar.xz",
+      "bytes": 51220268,
+      "sha256": "a951bd163c7b80fc6b8c88d7668fb56abf91c152373e13c10666763238131307",
+      "upstream": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtbase-everywhere-src-6.12.0.tar.xz"
+    },
+    {
+      "file": "qtdeclarative-everywhere-src-6.12.0.tar.xz",
+      "bytes": 39221652,
+      "sha256": "311f3a2603e1973bb59baef9dfa740a376de713157d4782ee043681e889c9260",
+      "upstream": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtdeclarative-everywhere-src-6.12.0.tar.xz"
+    },
+    {
+      "file": "qtpositioning-everywhere-src-6.12.0.tar.xz",
+      "bytes": 662600,
+      "sha256": "b060d410fac7413b05a0e7938bbf3325f7ad08d7df14af3956270f0696e76763",
+      "upstream": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtpositioning-everywhere-src-6.12.0.tar.xz"
+    },
+    {
+      "file": "qtshadertools-everywhere-src-6.12.0.tar.xz",
+      "bytes": 1244684,
+      "sha256": "c7d84f436e1aaef39fdcadebf2bd71bdf24dc69497e13f2e0198873cbbfea2ab",
+      "upstream": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtshadertools-everywhere-src-6.12.0.tar.xz"
+    },
+    {
+      "file": "qtsvg-everywhere-src-6.12.0.tar.xz",
+      "bytes": 2341876,
+      "sha256": "e4ab39534ec97987b1b9b60ef7f4d3253d5912a69f8c713a01753174a4029331",
+      "upstream": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtsvg-everywhere-src-6.12.0.tar.xz"
+    },
+    {
+      "file": "qttools-everywhere-src-6.12.0.tar.xz",
+      "bytes": 10819720,
+      "sha256": "8dab8f3611496486a470ad5f115ceea584f36bc22a2b8b6f6ebdbafbb8160693",
+      "upstream": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qttools-everywhere-src-6.12.0.tar.xz"
+    },
+    {
+      "file": "qttranslations-everywhere-src-6.12.0.tar.xz",
+      "bytes": 1745884,
+      "sha256": "85929c0c30d6f273f23bd879bb69803ea17b010ab73cab2f8abf95357f6f6bbb",
+      "upstream": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qttranslations-everywhere-src-6.12.0.tar.xz"
+    },
+    {
+      "file": "qtvirtualkeyboard-everywhere-src-6.12.0.tar.xz",
+      "bytes": 3281984,
+      "sha256": "2aae3628f4648f86959d7853e7e1f50ee96a7f1bb5497afb62b7deff6c350170",
+      "upstream": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtvirtualkeyboard-everywhere-src-6.12.0.tar.xz"
+    },
+    {
+      "file": "qtwebchannel-everywhere-src-6.12.0.tar.xz",
+      "bytes": 194940,
+      "sha256": "9afdfb64855b33c1cc16a4fdce69a556876f0d5b9df79d88de7306ffa2dca327",
+      "upstream": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtwebchannel-everywhere-src-6.12.0.tar.xz"
+    },
+    {
+      "file": "qtwebengine-6.140.0-rc.tar.gz",
+      "bytes": 4434085,
+      "sha256": "f51aa63ee4709c29de2b7d81d362f0b197b51667fc05d194d32d6329c3b25af3",
+      "upstream": "https://codeload.github.com/qt/qtwebengine/tar.gz/refs/tags/v6.140.0-rc"
+    },
+    {
+      "file": "smina-2020.12.10.tar.gz",
+      "bytes": 1298375,
+      "sha256": "639f89da01f178a0d1a125db521221ac7ce586b547eb8c8faec4c9ee36c8e5b6",
+      "upstream": "https://github.com/jaimergp/smina/archive/2020.12.10.tar.gz"
+    },
+    {
+      "file": "smina-feedstock-20210130.tar.gz",
+      "bytes": 11293,
+      "sha256": "3adb939ca6b602a74359cb3b8c4632342f2c4c9300e90e85b5e2d53af5e7dc2f",
+      "upstream": "https://github.com/conda-forge/smina-feedstock/tree/c6979266eb616b8703204ce116976bad483a12fc"
+    },
+    {
+      "file": "vecmath-1.5.2-sources.jar",
+      "bytes": 183220,
+      "sha256": "7bea4e97b737757c14bc346a45bb5e57a3f6ddd5c1bafe51e4d1eacd64347030",
+      "upstream": "See release source manifest and upstream project"
+    },
+    {
+      "file": "xom-1.3.9-sources.jar",
+      "bytes": 312377,
+      "sha256": "21c54a2c66bbd73bd230b572bbd3552189b72fee34539284b1ad57d37c49c3d5",
+      "upstream": "See release source manifest and upstream project"
+    },
+    {
+      "file": "p2rank_jars/angus-activation-2.0.1-sources.jar",
+      "bytes": 21863,
+      "sha256": "e9320c9581355e683c5b96972e032c063479eca7d0baf146b04ddf4e59f7a38a",
+      "upstream": "https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation/2.0.1/angus-activation-2.0.1-sources.jar",
+      "for_jar": "angus-activation-2.0.1.jar"
+    },
+    {
+      "file": "p2rank_jars/beam-core-1.3.8-sources.jar",
+      "bytes": 94918,
+      "sha256": "d216928253dc66ff08a817040fc6c9223fc83a6785ca0325311a7783e555ff93",
+      "upstream": "https://repo.maven.apache.org/maven2/uk/ac/ebi/beam/beam-core/1.3.8/beam-core-1.3.8-sources.jar",
+      "for_jar": "beam-core-1.3.8.jar"
+    },
+    {
+      "file": "p2rank_jars/beam-func-1.3.8-sources.jar",
+      "bytes": 23963,
+      "sha256": "9abe4994c3456d73be4ccf2f4bb7235255223ff06939bbce84a270f8e2d960d9",
+      "upstream": "https://repo.maven.apache.org/maven2/uk/ac/ebi/beam/beam-func/1.3.8/beam-func-1.3.8-sources.jar",
+      "for_jar": "beam-func-1.3.8.jar"
+    },
+    {
+      "file": "p2rank_jars/biojava-alignment-7.2.2-sources.jar",
+      "bytes": 120428,
+      "sha256": "7f0b6f6814730baf704af0bde0aab687f11a6135e2acd404106e20497138af97",
+      "upstream": "https://repo.maven.apache.org/maven2/org/biojava/biojava-alignment/7.2.2/biojava-alignment-7.2.2-sources.jar",
+      "for_jar": "biojava-alignment-7.2.2.jar"
+    },
+    {
+      "file": "p2rank_jars/biojava-core-7.2.2-sources.jar",
+      "bytes": 403853,
+      "sha256": "55ff266ddc7893d6a965fb31bbd03593b82b1ec5ea625d64a33842763d014682",
+      "upstream": "https://repo.maven.apache.org/maven2/org/biojava/biojava-core/7.2.2/biojava-core-7.2.2-sources.jar",
+      "for_jar": "biojava-core-7.2.2.jar"
+    },
+    {
+      "file": "p2rank_jars/cdk-atomtype-2.11-sources.jar",
+      "bytes": 24961,
+      "sha256": "df35cee62c4fba55bff2a4489317534d4b7ca0370d2c9372b0736948293f21a0",
+      "upstream": "https://repo.maven.apache.org/maven2/org/openscience/cdk/cdk-atomtype/2.11/cdk-atomtype-2.11-sources.jar",
+      "for_jar": "cdk-atomtype-2.11.jar"
+    },
+    {
+      "file": "p2rank_jars/cdk-charges-2.11-sources.jar",
+      "bytes": 29259,
+      "sha256": "44014b57b51dd36d8b43644ce097c4d180c9c2659c586d83fd70a7a6113c6e16",
+      "upstream": "https://repo.maven.apache.org/maven2/org/openscience/cdk/cdk-charges/2.11/cdk-charges-2.11-sources.jar",
+      "for_jar": "cdk-charges-2.11.jar"
+    },
+    {
+      "file": "p2rank_jars/cdk-core-2.11-sources.jar",
+      "bytes": 271925,
+      "sha256": "4d30c22289707e8ad96defd5a463781c51f0126562b261d8cdaebefb84f4063c",
+      "upstream": "https://repo.maven.apache.org/maven2/org/openscience/cdk/cdk-core/2.11/cdk-core-2.11-sources.jar",
+      "for_jar": "cdk-core-2.11.jar"
+    },
+    {
+      "file": "p2rank_jars/cdk-ctab-2.11-sources.jar",
+      "bytes": 118916,
+      "sha256": "7cad1059840e0825f4df653fffcaf5ebbcb3ca30cd7f471ce6a382be428be915",
+      "upstream": "https://repo.maven.apache.org/maven2/org/openscience/cdk/cdk-ctab/2.11/cdk-ctab-2.11-sources.jar",
+      "for_jar": "cdk-ctab-2.11.jar"
+    },
+    {
+      "file": "p2rank_jars/cdk-dict-2.11-sources.jar",
+      "bytes": 36999,
+      "sha256": "a7ca85de06f8d263878ea8d27d6ace2eaa274ce61f9c1e26bbf228c31b80daa9",
+      "upstream": "https://repo.maven.apache.org/maven2/org/openscience/cdk/cdk-dict/2.11/cdk-dict-2.11-sources.jar",
+      "for_jar": "cdk-dict-2.11.jar"
+    },
+    {
+      "file": "p2rank_jars/cdk-fingerprint-2.11-sources.jar",
+      "bytes": 106700,
+      "sha256": "97048dad9761f2e2877cc466586bf795ac9a8c724a53acc92aae2c1b75168405",
+      "upstream": "https://repo.maven.apache.org/maven2/org/openscience/cdk/cdk-fingerprint/2.11/cdk-fingerprint-2.11-sources.jar",
+      "for_jar": "cdk-fingerprint-2.11.jar"
+    },
+    {
+      "file": "p2rank_jars/cdk-formula-2.11-sources.jar",
+      "bytes": 65295,
+      "sha256": "25a6ad5206490559e50cedbd5317f80a9702a9bde0d9ba5bbaf786feef5eb118",
+      "upstream": "https://repo.maven.apache.org/maven2/org/openscience/cdk/cdk-formula/2.11/cdk-formula-2.11-sources.jar",
+      "for_jar": "cdk-formula-2.11.jar"
+    },
+    {
+      "file": "p2rank_jars/cdk-fragment-2.11-sources.jar",
+      "bytes": 24528,
+      "sha256": "226f04f680410a1db57e49511238b64a67c78750f933c14e154def90e7ac384d",
+      "upstream": "https://repo.maven.apache.org/maven2/org/openscience/cdk/cdk-fragment/2.11/cdk-fragment-2.11-sources.jar",
+      "for_jar": "cdk-fragment-2.11.jar"
+    },
+    {
+      "file": "p2rank_jars/cdk-hash-2.11-sources.jar",
+      "bytes": 72431,
+      "sha256": "5172881381a54223ec20b64446177de85728920cd442d2424c62cf57331d9663",
+      "upstream": "https://repo.maven.apache.org/maven2/org/openscience/cdk/cdk-hash/2.11/cdk-hash-2.11-sources.jar",
+      "for_jar": "cdk-hash-2.11.jar"
+    },
+    {
+      "file": "p2rank_jars/cdk-interfaces-2.11-sources.jar",
+      "bytes": 135879,
+      "sha256": "11117af94d658e07a36138eb0d8ff9f93b7ae480245a560e8152ebc963fe778f",
+      "upstream": "https://repo.maven.apache.org/maven2/org/openscience/cdk/cdk-interfaces/2.11/cdk-interfaces-2.11-sources.jar",
+      "for_jar": "cdk-interfaces-2.11.jar"
+    },
+    {
+      "file": "p2rank_jars/cdk-ioformats-2.11-sources.jar",
+      "bytes": 123179,
+      "sha256": "20e31eca51bdf8764c3bb599e36461785a449b7036d0d4cee10f00481ba5ef87",
+      "upstream": "https://repo.maven.apache.org/maven2/org/openscience/cdk/cdk-ioformats/2.11/cdk-ioformats-2.11-sources.jar",
+      "for_jar": "cdk-ioformats-2.11.jar"
+    },
+    {
+      "file": "p2rank_jars/cdk-isomorphism-2.11-sources.jar",
+      "bytes": 120320,
+      "sha256": "144ae5e41deb204c6e7a46d4a7b92525a3e0b4e23e3c59cfd8ca1de125963d9a",
+      "upstream": "https://repo.maven.apache.org/maven2/org/openscience/cdk/cdk-isomorphism/2.11/cdk-isomorphism-2.11-sources.jar",
+      "for_jar": "cdk-isomorphism-2.11.jar"
+    },
+    {
+      "file": "p2rank_jars/cdk-qsar-2.11-sources.jar",
+      "bytes": 45913,
+      "sha256": "bdea418a69f7437d5e48661d2f5dd9f18e0b2f1b265c8c0c2e76eaf594f1b595",
+      "upstream": "https://repo.maven.apache.org/maven2/org/openscience/cdk/cdk-qsar/2.11/cdk-qsar-2.11-sources.jar",
+      "for_jar": "cdk-qsar-2.11.jar"
+    },
+    {
+      "file": "p2rank_jars/cdk-qsarmolecular-2.11-sources.jar",
+      "bytes": 208951,
+      "sha256": "e9059411497c043489676d155c234577049891bab3cfb2149dec37975ec7ce7d",
+      "upstream": "https://repo.maven.apache.org/maven2/org/openscience/cdk/cdk-qsarmolecular/2.11/cdk-qsarmolecular-2.11-sources.jar",
+      "for_jar": "cdk-qsarmolecular-2.11.jar"
+    },
+    {
+      "file": "p2rank_jars/cdk-reaction-2.11-sources.jar",
+      "bytes": 134517,
+      "sha256": "2d5f58c762d707b18eabff90fb4717cfed72ba6fa01b1cd1736df9f723c74c94",
+      "upstream": "https://repo.maven.apache.org/maven2/org/openscience/cdk/cdk-reaction/2.11/cdk-reaction-2.11-sources.jar",
+      "for_jar": "cdk-reaction-2.11.jar"
+    },
+    {
+      "file": "p2rank_jars/cdk-silent-2.11-sources.jar",
+      "bytes": 109552,
+      "sha256": "8ae371ca1144bb77d866f3f81b0e52632f374fe15423c234125cf1b0decfaec3",
+      "upstream": "https://repo.maven.apache.org/maven2/org/openscience/cdk/cdk-silent/2.11/cdk-silent-2.11-sources.jar",
+      "for_jar": "cdk-silent-2.11.jar"
+    },
+    {
+      "file": "p2rank_jars/cdk-smarts-2.11-sources.jar",
+      "bytes": 55393,
+      "sha256": "e5d68c5d4295d3516c7192566083c11b874108ec6506091462f95874d2808521",
+      "upstream": "https://repo.maven.apache.org/maven2/org/openscience/cdk/cdk-smarts/2.11/cdk-smarts-2.11-sources.jar",
+      "for_jar": "cdk-smarts-2.11.jar"
+    },
+    {
+      "file": "p2rank_jars/cdk-smiles-2.11-sources.jar",
+      "bytes": 60793,
+      "sha256": "26ba1602144a79b995ef7785f62b16b23fb747fa9b82d0c19f3685753709fdfc",
+      "upstream": "https://repo.maven.apache.org/maven2/org/openscience/cdk/cdk-smiles/2.11/cdk-smiles-2.11-sources.jar",
+      "for_jar": "cdk-smiles-2.11.jar"
+    },
+    {
+      "file": "p2rank_jars/cdk-standard-2.11-sources.jar",
+      "bytes": 299611,
+      "sha256": "e6339e4f4e43d7579775b7fa11be83335abfe56159bb6192835b8164aeb36a1d",
+      "upstream": "https://repo.maven.apache.org/maven2/org/openscience/cdk/cdk-standard/2.11/cdk-standard-2.11-sources.jar",
+      "for_jar": "cdk-standard-2.11.jar"
+    },
+    {
+      "file": "p2rank_jars/cdk-valencycheck-2.11-sources.jar",
+      "bytes": 23023,
+      "sha256": "ce561389464b6543bd522fd2c4ddb63ff3e111e451d29f46d1cc7f78f8eba3c0",
+      "upstream": "https://repo.maven.apache.org/maven2/org/openscience/cdk/cdk-valencycheck/2.11/cdk-valencycheck-2.11-sources.jar",
+      "for_jar": "cdk-valencycheck-2.11.jar"
+    },
+    {
+      "file": "p2rank_jars/ciftools-java-7.0.1-sources.jar",
+      "bytes": 1282374,
+      "sha256": "5be7cd6f928fa85784da2eb294ca877ebd651b2799a96aae2796187bedc709eb",
+      "upstream": "https://repo.maven.apache.org/maven2/org/rcsb/ciftools-java/7.0.1/ciftools-java-7.0.1-sources.jar",
+      "for_jar": "ciftools-java-7.0.1.jar"
+    },
+    {
+      "file": "p2rank_jars/combinatoricslib3-3.4.0-sources.jar",
+      "bytes": 26148,
+      "sha256": "9d25cb6d9940a4671c14ed36ef8b93cc903bae7306cc5ec1cf73bb37f92cb54f",
+      "upstream": "https://repo.maven.apache.org/maven2/com/github/dpaukov/combinatoricslib3/3.4.0/combinatoricslib3-3.4.0-sources.jar",
+      "for_jar": "combinatoricslib3-3.4.0.jar"
+    },
+    {
+      "file": "p2rank_jars/commons-codec-1.19.0-sources.jar",
+      "bytes": 375253,
+      "sha256": "b0462142585d45fc15bc8091b7b02f1e3a85c83595068659548c82cac9cdc7a2",
+      "upstream": "https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.19.0/commons-codec-1.19.0-sources.jar",
+      "for_jar": "commons-codec-1.19.0.jar"
+    },
+    {
+      "file": "p2rank_jars/commons-compress-1.28.0-sources.jar",
+      "bytes": 937891,
+      "sha256": "6de9de4559f12bba6d41789c72f6a2a424514f2d2a3f7f49e2a3c52414db9632",
+      "upstream": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0-sources.jar",
+      "for_jar": "commons-compress-1.28.0.jar"
+    },
+    {
+      "file": "p2rank_jars/commons-csv-1.14.1-sources.jar",
+      "bytes": 60516,
+      "sha256": "94fced5dae260c2d094e22f056bc8f8dcc6d526da3b8c1fc26a27678aac37727",
+      "upstream": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-csv/1.14.1/commons-csv-1.14.1-sources.jar",
+      "for_jar": "commons-csv-1.14.1.jar"
+    },
+    {
+      "file": "p2rank_jars/commons-io-2.20.0-sources.jar",
+      "bytes": 566085,
+      "sha256": "7a87277538cce40da6389a7163a4d9458bc7a9c39937a329881b91d144be8e0d",
+      "upstream": "https://repo.maven.apache.org/maven2/commons-io/commons-io/2.20.0/commons-io-2.20.0-sources.jar",
+      "for_jar": "commons-io-2.20.0.jar"
+    },
+    {
+      "file": "p2rank_jars/commons-lang-2.4-sources.jar",
+      "bytes": 339321,
+      "sha256": "8ceb33a5122d6540ebb90f114e9d52979cc364ab3ece2435a6df25c7b5b2e955",
+      "upstream": "https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4-sources.jar",
+      "for_jar": "commons-lang-2.4.jar"
+    },
+    {
+      "file": "p2rank_jars/commons-lang3-3.18.0-sources.jar",
+      "bytes": 750845,
+      "sha256": "b15732a13e40df7f07c30f2cb8572874798e8dde581f1398943d2ad3765bafaa",
+      "upstream": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.18.0/commons-lang3-3.18.0-sources.jar",
+      "for_jar": "commons-lang3-3.18.0.jar"
+    },
+    {
+      "file": "p2rank_jars/commons-math3-3.6.1-sources.jar",
+      "bytes": 2514690,
+      "sha256": "e2ff85a3c360d56c51a7021614a194f3fbaf224054642ac535016f118322934d",
+      "upstream": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1-sources.jar",
+      "for_jar": "commons-math3-3.6.1.jar"
+    },
+    {
+      "file": "p2rank_jars/core-1.1.2-sources.jar",
+      "bytes": 679224,
+      "sha256": "a5b4a8c03eaa12bb0f308e6afa5131b03256631920951b9689cff468c3bfd32f",
+      "upstream": "https://repo.maven.apache.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2-sources.jar",
+      "for_jar": "core-1.1.2.jar"
+    },
+    {
+      "file": "p2rank_jars/error_prone_annotations-2.38.0-sources.jar",
+      "bytes": 40096,
+      "sha256": "bc4e1535cf5a236ca2e2cfb66d76da4cea99ae52d7447f57a2b05943cac21747",
+      "upstream": "https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.38.0/error_prone_annotations-2.38.0-sources.jar",
+      "for_jar": "error_prone_annotations-2.38.0.jar"
+    },
+    {
+      "file": "p2rank_jars/failureaccess-1.0.3-sources.jar",
+      "bytes": 10536,
+      "sha256": "6fef4dfd2eb9f961655f2a3c4ea87c023618d9fcbfb6b104c17862e5afe66b97",
+      "upstream": "https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3-sources.jar",
+      "for_jar": "failureaccess-1.0.3.jar"
+    },
+    {
+      "file": "p2rank_jars/forester-1.039-sources.jar",
+      "bytes": 1073861,
+      "sha256": "03fe17695618ac9448947ea4cd96973194fec369d1156c9533dd220301d8e0a0",
+      "upstream": "https://repo.maven.apache.org/maven2/org/biojava/thirdparty/forester/1.039/forester-1.039-sources.jar",
+      "for_jar": "forester-1.039.jar"
+    },
+    {
+      "file": "p2rank_jars/gson-2.13.1-sources.jar",
+      "bytes": 208313,
+      "sha256": "3317b8662ebc2b7a5ff34af2214cd0f8d74d37a9fa9757be494ad8824e96eee7",
+      "upstream": "https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.1/gson-2.13.1-sources.jar",
+      "for_jar": "gson-2.13.1.jar"
+    },
+    {
+      "file": "p2rank_jars/guava-33.4.8-jre-sources.jar",
+      "bytes": 1847395,
+      "sha256": "9d3c6aad893daac9d4812eb9fa4c3f7956a9f2e472eb7df2fea0e467fed7e766",
+      "upstream": "https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre-sources.jar",
+      "for_jar": "guava-33.4.8-jre.jar"
+    },
+    {
+      "file": "p2rank_jars/istack-commons-runtime-4.1.2-sources.jar",
+      "bytes": 23048,
+      "sha256": "395597030176cf4186495a26c024bbba2f74c1f4b0f1c655063be605862846fd",
+      "upstream": "https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2-sources.jar",
+      "for_jar": "istack-commons-runtime-4.1.2.jar"
+    },
+    {
+      "file": "p2rank_jars/j2objc-annotations-3.0.0-sources.jar",
+      "bytes": 17340,
+      "sha256": "bd60019a0423c3a025ef6ab24fe0761f5f45ffb48a8cca74a01b678de1105d38",
+      "upstream": "https://repo.maven.apache.org/maven2/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0-sources.jar",
+      "for_jar": "j2objc-annotations-3.0.0.jar"
+    },
+    {
+      "file": "p2rank_jars/jackson-annotations-2.13.4-sources.jar",
+      "bytes": 80052,
+      "sha256": "f7957cd469e2c80f2a313d57816c9834135a5218e02eaa4d70d1a81fb49ca437",
+      "upstream": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4-sources.jar",
+      "for_jar": "jackson-annotations-2.13.4.jar"
+    },
+    {
+      "file": "p2rank_jars/jackson-core-2.13.4-sources.jar",
+      "bytes": 406320,
+      "sha256": "6abd09c8116e11fc2b51b577161208e6364b0aaf454bc7b2004bd981e32b4868",
+      "upstream": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4-sources.jar",
+      "for_jar": "jackson-core-2.13.4.jar"
+    },
+    {
+      "file": "p2rank_jars/jackson-databind-2.13.4.2-sources.jar",
+      "bytes": 1148901,
+      "sha256": "200709b6228820c13f77d5627197b387c42d26ff15f7a737662f12e193e072b1",
+      "upstream": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.4.2/jackson-databind-2.13.4.2-sources.jar",
+      "for_jar": "jackson-databind-2.13.4.2.jar"
+    },
+    {
+      "file": "p2rank_jars/jakarta.activation-api-2.1.2-sources.jar",
+      "bytes": 59569,
+      "sha256": "cffd53ecb6895ed462084572cdff1127b12df719900b04c32c587c0e2fde0717",
+      "upstream": "https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2-sources.jar",
+      "for_jar": "jakarta.activation-api-2.1.2.jar"
+    },
+    {
+      "file": "p2rank_jars/jakarta.xml.bind-api-4.0.0-sources.jar",
+      "bytes": 197983,
+      "sha256": "6f998789297efa7951200e1332df0f513c70475f894633c579675c34371af405",
+      "upstream": "https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0-sources.jar",
+      "for_jar": "jakarta.xml.bind-api-4.0.0.jar"
+    },
+    {
+      "file": "p2rank_jars/java-cup-11b-20160615-sources.jar",
+      "bytes": 312574,
+      "sha256": "1fa0c0fbe7a0c4af9a3545775a1613ea43a7adc419156c617ab6a7a47fcbf029",
+      "upstream": "https://repo.maven.apache.org/maven2/com/github/vbmacher/java-cup/11b-20160615/java-cup-11b-20160615-sources.jar",
+      "for_jar": "java-cup-11b-20160615.jar"
+    },
+    {
+      "file": "p2rank_jars/java-cup-runtime-11b-20160615-sources.jar",
+      "bytes": 312574,
+      "sha256": "1fa0c0fbe7a0c4af9a3545775a1613ea43a7adc419156c617ab6a7a47fcbf029",
+      "upstream": "https://repo.maven.apache.org/maven2/com/github/vbmacher/java-cup-runtime/11b-20160615/java-cup-runtime-11b-20160615-sources.jar",
+      "for_jar": "java-cup-runtime-11b-20160615.jar"
+    },
+    {
+      "file": "p2rank_jars/javax.annotation-api-1.3.2-sources.jar",
+      "bytes": 42279,
+      "sha256": "128971e52e0d84a66e3b6e049dab8ad7b2c58b7e1ad37fa2debd3d40c2947b95",
+      "upstream": "https://repo.maven.apache.org/maven2/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2-sources.jar",
+      "for_jar": "javax.annotation-api-1.3.2.jar"
+    },
+    {
+      "file": "p2rank_jars/jaxb-core-4.0.3-sources.jar",
+      "bytes": 132321,
+      "sha256": "312019dbfb30e71ddba85946a137e34ae4b9cc884243c2206be71226c3bea079",
+      "upstream": "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.3/jaxb-core-4.0.3-sources.jar",
+      "for_jar": "jaxb-core-4.0.3.jar"
+    },
+    {
+      "file": "p2rank_jars/jaxb-runtime-4.0.3-sources.jar",
+      "bytes": 651437,
+      "sha256": "eaf9868dbfa40d913f3a6074fc7745a58c33f1c71c58fbcfc95d23f07e4e52b1",
+      "upstream": "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.3/jaxb-runtime-4.0.3-sources.jar",
+      "for_jar": "jaxb-runtime-4.0.3.jar"
+    },
+    {
+      "file": "p2rank_jars/jclipboardhelper-0.1.0-sources.jar",
+      "bytes": 8116,
+      "sha256": "16617399fb8675e2a70a794e4afe96462a7efe72586138b3f0240410b725ae0d",
+      "upstream": "https://repo.maven.apache.org/maven2/com/github/fracpete/jclipboardhelper/0.1.0/jclipboardhelper-0.1.0-sources.jar",
+      "for_jar": "jclipboardhelper-0.1.0.jar"
+    },
+    {
+      "file": "p2rank_jars/jfilechooser-bookmarks-0.1.6-sources.jar",
+      "bytes": 34099,
+      "sha256": "f22022e131fb66d703ad2fbf7e062e4850c951227460d2ee2fe021ae7cf74a5c",
+      "upstream": "https://repo.maven.apache.org/maven2/com/github/fracpete/jfilechooser-bookmarks/0.1.6/jfilechooser-bookmarks-0.1.6-sources.jar",
+      "for_jar": "jfilechooser-bookmarks-0.1.6.jar"
+    },
+    {
+      "file": "p2rank_jars/jgrapht-core-1.4.0-sources.jar",
+      "bytes": 894621,
+      "sha256": "e409f940e3a01342c022d711fb175f6a61e8f4f8abb2b44226ea5422d23c763c",
+      "upstream": "https://repo.maven.apache.org/maven2/org/jgrapht/jgrapht-core/1.4.0/jgrapht-core-1.4.0-sources.jar",
+      "for_jar": "jgrapht-core-1.4.0.jar"
+    },
+    {
+      "file": "p2rank_jars/jniloader-1.1-sources.jar",
+      "bytes": 4441,
+      "sha256": "f31f1d3d257c1c298bff289424283bb881ba372e451745d828c04d02df091cf2",
+      "upstream": "https://repo.maven.apache.org/maven2/com/github/fommil/jniloader/1.1/jniloader-1.1-sources.jar",
+      "for_jar": "jniloader-1.1.jar"
+    },
+    {
+      "file": "p2rank_jars/jsr305-3.0.2-sources.jar",
+      "bytes": 18102,
+      "sha256": "1c9e85e272d0708c6a591dc74828c71603053b48cc75ae83cce56912a2aa063b",
+      "upstream": "https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar",
+      "for_jar": "jsr305-3.0.2.jar"
+    },
+    {
+      "file": "p2rank_jars/jul-to-slf4j-2.0.17-sources.jar",
+      "bytes": 7070,
+      "sha256": "63962cb695376c541835ce130a9a734516c61628aafdb088db0241f0c9559ab2",
+      "upstream": "https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/2.0.17/jul-to-slf4j-2.0.17-sources.jar",
+      "for_jar": "jul-to-slf4j-2.0.17.jar"
+    },
+    {
+      "file": "p2rank_jars/log4j-api-2.24.0-sources.jar",
+      "bytes": 290710,
+      "sha256": "1678a06935bdb4fc9f43af6ada2b495e284517c7f5a44d9a653cddb395c8b4e1",
+      "upstream": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.24.0/log4j-api-2.24.0-sources.jar",
+      "for_jar": "log4j-api-2.24.0.jar"
+    },
+    {
+      "file": "p2rank_jars/log4j-core-2.24.0-sources.jar",
+      "bytes": 1341058,
+      "sha256": "48f975893afb7ba045583c9c4de965809b1ddd3a2948cf16ac003a86ee4b2d56",
+      "upstream": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.24.0/log4j-core-2.24.0-sources.jar",
+      "for_jar": "log4j-core-2.24.0.jar"
+    },
+    {
+      "file": "p2rank_jars/log4j-slf4j2-impl-2.24.0-sources.jar",
+      "bytes": 23435,
+      "sha256": "1b0c7c9f17d020a72f82005a96618ad215bad9094a86468440ed13c155e3e22c",
+      "upstream": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j2-impl/2.24.0/log4j-slf4j2-impl-2.24.0-sources.jar",
+      "for_jar": "log4j-slf4j2-impl-2.24.0.jar"
+    },
+    {
+      "file": "p2rank_jars/mtj-1.0.4-sources.jar",
+      "bytes": 210588,
+      "sha256": "b98ddcdc67cdd3de751dabb31661f4c1adf6a97d52a2b9d447425362a5d791ac",
+      "upstream": "https://repo.maven.apache.org/maven2/com/googlecode/matrix-toolkits-java/mtj/1.0.4/mtj-1.0.4-sources.jar",
+      "for_jar": "mtj-1.0.4.jar"
+    },
+    {
+      "file": "p2rank_jars/multiverse-core-0.7.0-sources.jar",
+      "bytes": 201872,
+      "sha256": "69cdcd09311dcd9c12ff467dc28be1a03dcd7c86d83621af101bc01da247962f",
+      "upstream": "https://repo.maven.apache.org/maven2/org/multiverse/multiverse-core/0.7.0/multiverse-core-0.7.0-sources.jar",
+      "for_jar": "multiverse-core-0.7.0.jar"
+    },
+    {
+      "file": "p2rank_jars/native_ref-java-1.1-sources.jar",
+      "bytes": 28183,
+      "sha256": "9f0baec202cfc31bdecc1ae5b3746a4d31fc30d2d7679fef6dfc7f01a57a86e6",
+      "upstream": "https://repo.maven.apache.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1-sources.jar",
+      "for_jar": "native_ref-java-1.1.jar"
+    },
+    {
+      "file": "p2rank_jars/native_system-java-1.1-sources.jar",
+      "bytes": 28200,
+      "sha256": "1fcdd2af960ac58f53c959fc224571c6dae2efd51ccf37dbdb2a399af5fc93fc",
+      "upstream": "https://repo.maven.apache.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1-sources.jar",
+      "for_jar": "native_system-java-1.1.jar"
+    },
+    {
+      "file": "p2rank_jars/netlib-java-1.1-sources.jar",
+      "bytes": 2333,
+      "sha256": "51392d3cd0b16897c33a8232a09fccd1b05867c9b3a632377246bf9c03f85ecf",
+      "upstream": "https://repo.maven.apache.org/maven2/com/googlecode/netlib-java/netlib-java/1.1/netlib-java-1.1-sources.jar",
+      "for_jar": "netlib-java-1.1.jar"
+    },
+    {
+      "file": "p2rank_jars/netlib-native_ref-linux-armhf-1.1-sources.jar",
+      "bytes": 86855,
+      "sha256": "b03f3ee3220b560c86025f2ddaa329dfe575f29245c6fdf8b2ab166c74dee8da",
+      "upstream": "https://repo.maven.apache.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1-sources.jar",
+      "for_jar": "netlib-native_ref-linux-armhf-1.1-natives.jar"
+    },
+    {
+      "file": "p2rank_jars/netlib-native_ref-linux-i686-1.1-sources.jar",
+      "bytes": 86855,
+      "sha256": "5b29766356a06b761f7260845464606e08216f68abe299be53f2457b4e9bc397",
+      "upstream": "https://repo.maven.apache.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1-sources.jar",
+      "for_jar": "netlib-native_ref-linux-i686-1.1-natives.jar"
+    },
+    {
+      "file": "p2rank_jars/netlib-native_ref-linux-x86_64-1.1-sources.jar",
+      "bytes": 86855,
+      "sha256": "5abc59d71b2b231a127efbdb190e72b9aa666edc8e329feabce0b8859ec3dc07",
+      "upstream": "https://repo.maven.apache.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1-sources.jar",
+      "for_jar": "netlib-native_ref-linux-x86_64-1.1-natives.jar"
+    },
+    {
+      "file": "p2rank_jars/netlib-native_ref-osx-x86_64-1.1-sources.jar",
+      "bytes": 89373,
+      "sha256": "19d18939446877aaf295205526b47f85e6271328ec823322fcbe7d7dbc1a77ba",
+      "upstream": "https://repo.maven.apache.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1-sources.jar",
+      "for_jar": "netlib-native_ref-osx-x86_64-1.1-natives.jar"
+    },
+    {
+      "file": "p2rank_jars/netlib-native_ref-win-i686-1.1-sources.jar",
+      "bytes": 86854,
+      "sha256": "cfa20b2380924d70d82373c69d678b5ac5f2ff954aed3e3b0726f38fa368c9fa",
+      "upstream": "https://repo.maven.apache.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1-sources.jar",
+      "for_jar": "netlib-native_ref-win-i686-1.1-natives.jar"
+    },
+    {
+      "file": "p2rank_jars/netlib-native_ref-win-x86_64-1.1-sources.jar",
+      "bytes": 86854,
+      "sha256": "5e8bb9b9f3443a7747f88035272aeb769dadedf9d5149a22256c44be86c73303",
+      "upstream": "https://repo.maven.apache.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1-sources.jar",
+      "for_jar": "netlib-native_ref-win-x86_64-1.1-natives.jar"
+    },
+    {
+      "file": "p2rank_jars/netlib-native_system-linux-armhf-1.1-sources.jar",
+      "bytes": 86987,
+      "sha256": "89f4aac954385cf52f220a27273f837727206a083e178d1c6d7a7d762e58f23b",
+      "upstream": "https://repo.maven.apache.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1-sources.jar",
+      "for_jar": "netlib-native_system-linux-armhf-1.1-natives.jar"
+    },
+    {
+      "file": "p2rank_jars/netlib-native_system-linux-i686-1.1-sources.jar",
+      "bytes": 86987,
+      "sha256": "bc2b501439b612287c3a8f6d535e7953cf719daa205d984b2dc32f8df7f049c0",
+      "upstream": "https://repo.maven.apache.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1-sources.jar",
+      "for_jar": "netlib-native_system-linux-i686-1.1-natives.jar"
+    },
+    {
+      "file": "p2rank_jars/netlib-native_system-linux-x86_64-1.1-sources.jar",
+      "bytes": 89748,
+      "sha256": "6b2af363d6f66d139df1e8de041c5507a5769837971ee35dac98f8e508208c37",
+      "upstream": "https://repo.maven.apache.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1-sources.jar",
+      "for_jar": "netlib-native_system-linux-x86_64-1.1-natives.jar"
+    },
+    {
+      "file": "p2rank_jars/netlib-native_system-osx-x86_64-1.1-sources.jar",
+      "bytes": 86986,
+      "sha256": "b83eb9788e6336f8b1d6b0de0432f9620c163963af899b69d13c3d55f84870c1",
+      "upstream": "https://repo.maven.apache.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1-sources.jar",
+      "for_jar": "netlib-native_system-osx-x86_64-1.1-natives.jar"
+    },
+    {
+      "file": "p2rank_jars/netlib-native_system-win-i686-1.1-sources.jar",
+      "bytes": 86986,
+      "sha256": "a2245f1c40ffe2e8e2632f7982bc947fda9b1022033f7151ffa2dff6daae1ef6",
+      "upstream": "https://repo.maven.apache.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1-sources.jar",
+      "for_jar": "netlib-native_system-win-i686-1.1-natives.jar"
+    },
+    {
+      "file": "p2rank_jars/netlib-native_system-win-x86_64-1.1-sources.jar",
+      "bytes": 86986,
+      "sha256": "1921d0908ed12b7b444fc0fc86f02a09ac88bc3e5099d846f6987b72077afe79",
+      "upstream": "https://repo.maven.apache.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1-sources.jar",
+      "for_jar": "netlib-native_system-win-x86_64-1.1-natives.jar"
+    },
+    {
+      "file": "p2rank_jars/slf4j-api-2.0.17-sources.jar",
+      "bytes": 76986,
+      "sha256": "db0d08d8efa05ad19d174d747bd9d8e68dbb02b596812fe7b3a681656e346694",
+      "upstream": "https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17-sources.jar",
+      "for_jar": "slf4j-api-2.0.17.jar"
+    },
+    {
+      "file": "p2rank_jars/txw2-4.0.3-sources.jar",
+      "bytes": 69788,
+      "sha256": "abcdbff4ea78831dabe43dfce36621c35a540266c4b3f5455b569a65d36e8d6b",
+      "upstream": "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/4.0.3/txw2-4.0.3-sources.jar",
+      "for_jar": "txw2-4.0.3.jar"
+    },
+    {
+      "file": "p2rank_jars/univocity-parsers-2.9.1-sources.jar",
+      "bytes": 411929,
+      "sha256": "484a48fa4a9587a47893f4a332cbe09c2902091b7a647c5d04258a46166c891b",
+      "upstream": "https://repo.maven.apache.org/maven2/com/univocity/univocity-parsers/2.9.1/univocity-parsers-2.9.1-sources.jar",
+      "for_jar": "univocity-parsers-2.9.1.jar"
+    },
+    {
+      "file": "p2rank_jars/vecmath-1.5.2-sources.jar",
+      "bytes": 183220,
+      "sha256": "7bea4e97b737757c14bc346a45bb5e57a3f6ddd5c1bafe51e4d1eacd64347030",
+      "upstream": "https://repo.maven.apache.org/maven2/javax/vecmath/vecmath/1.5.2/vecmath-1.5.2-sources.jar",
+      "for_jar": "vecmath-1.5.2.jar"
+    },
+    {
+      "file": "p2rank_jars/weka-dev-3.9.6-sources.jar",
+      "bytes": 7721859,
+      "sha256": "35ae9419c3060bfcebe386c95f57c9d1bef747c347e8767059fb44eb8c2e822d",
+      "upstream": "https://repo.maven.apache.org/maven2/nz/ac/waikato/cms/weka/weka-dev/3.9.6/weka-dev-3.9.6-sources.jar",
+      "for_jar": "weka-dev-3.9.6.jar"
+    }
+  ],
+  "qt_webengine": {
+    "qt_webengine_version": "6.140.0",
+    "chromium_version": "140.0.7339.225",
+    "wrapper_source": "https://codeload.github.com/qt/qtwebengine/tar.gz/refs/tags/v6.140.0-rc",
+    "wrapper_sha256": "f51aa63ee4709c29de2b7d81d362f0b197b51667fc05d194d32d6329c3b25af3",
+    "chromium_commit": "39352427a3245a19fb395547b3aa38be9d091ec4",
+    "chromium_source": "https://codeload.github.com/qt/qtwebengine-chromium/tar.gz/39352427a3245a19fb395547b3aa38be9d091ec4",
+    "source_tree": "https://github.com/qt/qtwebengine-chromium/tree/39352427a3245a19fb395547b3aa38be9d091ec4"
+  },
+  "p2rank_upstream": "https://github.com/rdk/p2rank/tree/2.5.1",
+  "biojava_modified_source": "https://github.com/rdk/biojava/tree/updated-cif-parsing-bug-7.2.2-rebase",
+  "FasterMolecularSurface_source": "https://github.com/rdk/FasterMolecularSurface",
+  "smina_source": "https://github.com/jaimergp/smina/tree/2020.12.10",
+  "smina_build_recipe": "https://github.com/conda-forge/smina-feedstock/tree/c6979266eb616b8703204ce116976bad483a12fc",
+  "python_packages": "requirements.txt",
+  "native_rebuild_claim": "No byte-for-byte native rebuild is claimed; original versioned binaries, source provenance and rebuild inputs are supplied."
+}
