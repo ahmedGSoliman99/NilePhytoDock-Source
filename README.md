@@ -2,7 +2,7 @@
 
 This repository provides the source access required by the licenses of NilePhytoDock Studio and its bundled components. Researchers can [download the Windows application from the product page](https://github.com/ahmedGSoliman99/NilePhytoDock-Studio).
 
-The [v1.0.1 application-source release](https://github.com/ahmedGSoliman99/NilePhytoDock-Source/releases/tag/v1.0.1) contains the updated application, essential build inputs and packaging source. Native and Python dependencies are unchanged.
+The [v1.0.2 application-source release](https://github.com/ahmedGSoliman99/NilePhytoDock-Source/releases/tag/v1.0.2) contains the updated application, essential build inputs and packaging source. Native and Python dependencies are unchanged.
 
 The retained [v1.0.0 dependency and historical-source release](https://github.com/ahmedGSoliman99/NilePhytoDock-Source/releases/tag/v1.0.0) provides:
 

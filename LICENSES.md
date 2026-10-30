@@ -34,3 +34,5 @@ The PySide6 WebEngine/PDF bindings are version 6.12.0.140; the actual embedded Q
 Public corresponding source and packaging instructions: https://github.com/ahmedGSoliman99/NilePhytoDock-Source . See SOURCE_ACCESS.md and LICENSE_AUDIT.md. Native binaries are inherited from their identified upstream distributions; a byte-for-byte native rebuild is not claimed. The full working development history is preserved separately, and previously granted GPL rights remain in force.
 
 GridDataFormats 1.2.0 is LGPL-3.0-or-later; its complete COPYING and COPYING.LESSER texts and matching source distribution are retained.
+
+The complete Python PSF license is retained in external_tools/licenses/Python-PSF.txt. The bundled Python ssl module requires the included public CA distrust policy. This policy contains public certificate data only; it does not contain a private key, credential or secret. The runtime-specific source is available with the corresponding source under build/runtime. OpenSSL 3.x retains its Apache-2.0 terms; Qt's collected third-party notices and Python source notices are retained.
