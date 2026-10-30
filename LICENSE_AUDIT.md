@@ -38,3 +38,9 @@ Nuitka 4.3.1 was investigated and a one-file compiler probe attempted. It requir
 ## References
 
 [GNU GPL FAQ: source and binary on different servers](https://www.gnu.org/licenses/gpl-faq.en.html#SourceAndBinaryOnDifferentSites), [Qt for Python licenses](https://doc.qt.io/qtforpython-6/licenses.html), [PyInstaller one-file behavior](https://pyinstaller.org/en/stable/operating-mode.html), [Nuitka compiler requirements](https://nuitka.net/user-documentation/user-manual.html).
+
+## v1.0.1 maintenance update
+
+The maintenance update changes coordinate retrieval and scientific presentation. Dependency versions, native binaries, redistribution terms and the source-replacement policy are unchanged. Its corresponding application source and build inputs are provided in a separate v1.0.1 source release; the v1.0.0 dependency archives and earlier sources remain available. No user projects or working database are included.
+
+The supplied Python ssl module has a distribution-specific public CA distrust hook. v1.0.1 includes the missing 906-byte public policy file at the frozen runtime root, without changing its contents or disabling certificate verification. The precise module and policy are provided in build/runtime in the corresponding source; Python's full PSF license is retained. Frozen OpenSSL reports 3.6.4, unchanged from the existing collected native libraries. Source/runtime versions and the runtime-specific TLS source are distinguished in THIRD_PARTY_SOURCES.json.

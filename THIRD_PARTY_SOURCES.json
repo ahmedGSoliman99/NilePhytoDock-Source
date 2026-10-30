@@ -1,5 +1,5 @@
 {
-  "application": "NilePhytoDock Studio v1.0.0",
+  "application": "NilePhytoDock Studio v1.0.1",
   "license": "GPL-3.0-or-later",
   "developers": [
     "Ahmed G Soliman",
@@ -760,5 +760,16 @@
   "smina_source": "https://github.com/jaimergp/smina/tree/2020.12.10",
   "smina_build_recipe": "https://github.com/conda-forge/smina-feedstock/tree/c6979266eb616b8703204ce116976bad483a12fc",
   "python_packages": "requirements.txt",
-  "native_rebuild_claim": "No byte-for-byte native rebuild is claimed; original versioned binaries, source provenance and rebuild inputs are supplied."
+  "native_rebuild_claim": "No byte-for-byte native rebuild is claimed; original versioned binaries, source provenance and rebuild inputs are supplied.",
+  "python_tls_runtime": {
+    "python": "3.12.14",
+    "stdlib_source": "build/runtime/python_ssl.py",
+    "public_distrust_policy": "build/runtime/codex-rejected-cas.pem",
+    "policy_bytes": 906,
+    "policy_sha256": "c916ce1b14ed8ca69e9b5c9fab22799a900dd610d6d4ec9b1347f4fd48e53718",
+    "policy_note": "Required public certificate distrust data for the supplied ssl module. No private key or credentials. Original TLS verification behavior is preserved.",
+    "upstream_python_source": "https://github.com/python/cpython/tree/v3.12.14",
+    "frozen_openssl": "3.6.4",
+    "openssl_source": "https://github.com/openssl/openssl/tree/openssl-3.6.4"
+  }
 }

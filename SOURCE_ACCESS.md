@@ -1,4 +1,4 @@
-# Licensing and corresponding source — v1.0.0
+# Licensing and corresponding source — v1.0.1
 
 Copyright Ahmed G Soliman and Malak Taha. NilePhytoDock Studio source is licensed under GPL-3.0-or-later, without warranty. See LICENSE and LICENSES.md. Included third-party components retain their original copyrights and terms.
 
@@ -6,7 +6,7 @@ Public product and Windows download: https://github.com/ahmedGSoliman99/NilePhyt
 
 Corresponding source, build/packaging instructions, exact dependency versions and source archives: https://github.com/ahmedGSoliman99/NilePhytoDock-Source
 
-Source downloads are available on the source repository's Releases page without payment or authentication. They are separate from the one-file Windows download. Source access remains available for the previously distributed 0.6.0 and 0.6.1 development builds as well as v1.0.0. Making the working development repository private does not revoke recipients' GPL rights or erase earlier published history.
+Source downloads are available on the source repository's Releases page without payment or authentication. They are separate from the one-file Windows download. Source access remains available for the previously distributed 0.6.0 and 0.6.1 development builds as well as v1.0.0 and v1.0.1. Making the working development repository private does not revoke recipients' GPL rights or erase earlier published history.
 
 The source archive includes the application code, essential library data/resources, requirements and scripts needed to package it. Personal working databases, research project outputs, credentials and development logs are excluded. The essential bundled seed catalog is provided as a build input, with its existing citations and rights notices; no ownership of third-party publications is claimed.
 
