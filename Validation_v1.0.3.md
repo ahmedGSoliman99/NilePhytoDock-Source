@@ -4,7 +4,7 @@
 
 ## Automated suite
 
-95 tests passed in 53.02 seconds, including the original scientific/geometry tests, independent live reads, shared/functional analysis and charts during an active scientific task, all workspace command rows at 900×600 and 1280×720 logical sizes, wrapping at 360/520/900 pixels, background selected-pose reanalysis, strict template restoration, native-output lock retry, owned-process cancellation and installer cleanup preservation. One existing MDAnalysis deprecation warning remains. Qt offscreen GPU diagnostics did not fail the tests; native rendering is checked separately. Evidence: data/validation/v1_0_3_release_full_tests.xml.
+96 tests passed in 99.40 seconds, including the original scientific/geometry tests, independent live reads, shared/functional analysis and charts during an active scientific task, all workspace command rows at 900×600 and 1280×720 logical sizes, wrapping at 360/520/900 pixels, background selected-pose reanalysis, in-place cache reuse without overwriting, strict template restoration, native-output lock retry, owned-process cancellation and installer cleanup preservation. One existing MDAnalysis deprecation warning remains. Qt offscreen GPU diagnostics did not fail the tests; native rendering is checked separately. Evidence: data/validation/v1_0_3_release_full_tests.xml.
 
 ## Live result regression
 
@@ -24,6 +24,10 @@ A separate private-copy check analyzed 160 distinct structures from completed ru
 
 All five previously invalid native caffeine poses were reconstructed against the validated achiral template in a local check. Sanitization and chemical identity passed, and every heavy-atom coordinate was retained without alignment. Unit negative fixtures reject changed connectivity and charge; a valid stereospecified fixture preserves its configuration. The fallback does not repair invalid outputs with specified stereochemistry.
 
+## In-place cache recovery
+
+A separate actual 3PTB/curcuminoid integration marked one saved run failed while retaining its hash-verified cache in its original destination folder. Resume processed three jobs with zero failures: one verified cache reuse, two retained completed runs and zero new docking calculations. All original pose-file hashes were unchanged. This catches the Windows same-file copy failure observed during real study recovery. Evidence: data/validation/v1_0_3_inplace_cache/verification.json.
+
 ## Installer cleanup
 
 The real C# cleanup methods were exercised against owned installation fixtures, an unlisted research file, an unowned folder and a malicious parent-directory path. Owned executable/runtime files were removed; the unlisted research file and unowned folder survived; the outside path was rejected and its file preserved. The same regression is included in the test suite. Old application files are removed only after successful installation.
@@ -40,11 +44,11 @@ The executable is unsigned. Tests use this Windows host, not a newly provisioned
 
 The final Setup installed v1.0.3 with PATH restricted to Windows system directories and developer Python/Java/Qt settings removed. Three actual P2Rank/Smina jobs completed, and saved results appeared while the scientific worker was still active. The packaged checks passed PDB retrieval, direct 2D/300-DPI saving, atom/feature mapping, three camera exports, high-resolution labels, computed pocket surfaces, four chart types with six exports each, all five molecular-analysis views, shared-group structures, analysis exports and all project-report formats.
 
-The one-close probe left zero owned engines and zero tasks; close latency was 0.031 seconds. Installation took 52.219 seconds on this host as an update, and native/visual/lifecycle verification took 128.593 seconds. This is not a fresh-install benchmark.
+The one-close probe left zero owned engines and zero tasks; close latency was 0.031 seconds. Installation took 45.219 seconds on this host as an update, and native/visual/lifecycle verification took 121.297 seconds. This is not a fresh-install benchmark.
 
-- Setup: `NilePhytoDock-v1.0.3-Setup.exe`, 428,913,664 bytes.
-- Setup SHA-256: `1e8422e9e4f36e431274f3f6cf94a9cfad1c9c9c3de34194e7da68372875228a`.
-- Installed executable SHA-256: `6dadd5b7ccaa5058ce69f32e94c317c16c357fc397ecbcc7b040a9411b575c08`.
+- Setup: `NilePhytoDock-v1.0.3-Setup.exe`, 428,914,176 bytes.
+- Setup SHA-256: `3b4972f2ab20cc7361e722abf9d64009e9596bb4410bc89d0255f0948d99aa69`.
+- Installed executable SHA-256: `96ff9eb16bbd994aff76ddb851b5be38f8f60d91630f956a087f8f0f7944989b`.
 - Original scientific seed SHA-256: `da0b0f27f59c4790d06b54ab8de56bed056a524f5514277b340620aec11da90e`.
 - Payload: 4,341 files, no researcher projects/databases, logs or SQLite sidecar caches.
 
