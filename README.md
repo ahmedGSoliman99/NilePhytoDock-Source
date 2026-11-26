@@ -2,7 +2,9 @@
 
 This repository provides the source access required by the licenses of NilePhytoDock Studio and its bundled components. Researchers can [download the Windows application from the product page](https://github.com/ahmedGSoliman99/NilePhytoDock-Studio).
 
-The [v1.0.2 application-source release](https://github.com/ahmedGSoliman99/NilePhytoDock-Source/releases/tag/v1.0.2) contains the updated application, essential build inputs and packaging source. Native and Python dependencies are unchanged.
+The [v1.0.3 application-source release](https://github.com/ahmedGSoliman99/NilePhytoDock-Source/releases/tag/v1.0.3) contains the updated application, essential build inputs and packaging source. Native and Python dependencies are unchanged.
+
+This update fixes live result reads, functional/shared-group analyses, wrapping controls, current-scene image export and background selected-pose reanalysis. See the [v1.0.3 validation record](Validation_v1.0.3.md) for the automated and installed-package checks.
 
 The retained [v1.0.0 dependency and historical-source release](https://github.com/ahmedGSoliman99/NilePhytoDock-Source/releases/tag/v1.0.0) provides:
 
